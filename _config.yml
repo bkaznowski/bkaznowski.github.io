@@ -1,8 +1,8 @@
 # Site settings — edit these to personalize your blog
-title: My Blog
+title: Pace & Push
 description: Notes on tech and running.
-author: Your Name
-email: your@email.com
+author: Bartosz Thomas Kaznowski
+email: blog@kaznowski.dev
 baseurl: "" # subpath, e.g. "/blog" if hosted at username.github.io/blog — leave "" for username.github.io or a custom domain
 url: "https://bkaznowski.github.io"
 
