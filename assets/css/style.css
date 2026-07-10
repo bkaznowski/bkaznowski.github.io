@@ -173,3 +173,21 @@ footer.site-footer {
   display: flex;
   justify-content: space-between;
 }
+
+.series-nav {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.78rem;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.series-pagination {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.95rem;
+}
