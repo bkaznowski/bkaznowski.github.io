@@ -4,7 +4,7 @@ description: Notes on tech and running.
 author: Your Name
 email: your@email.com
 baseurl: "/blog" # subpath, e.g. "/blog" if hosted at username.github.io/blog — leave "" for username.github.io or a custom domain
-url: "https://bartosz.kaznowski.dev" # your existing github pages custom domain (from bkaznowski.github.io) — this repo is served at a /blog subpath of it
+url: "https://bkaznowski.github.io"
 
 # Build settings
 markdown: kramdown
