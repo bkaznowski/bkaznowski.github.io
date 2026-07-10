@@ -1,0 +1,36 @@
+# Site settings — edit these to personalize your blog
+title: My Blog
+description: Notes on tech and running.
+author: Your Name
+email: your@email.com
+baseurl: "" # subpath, e.g. "/blog" if hosted at username.github.io/blog — leave "" for username.github.io or a custom domain
+url: "" # e.g. "https://username.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 10
+paginate_path: "/page:num/"
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
