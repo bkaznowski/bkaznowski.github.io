@@ -3,7 +3,7 @@ title: My Blog
 description: Notes on tech and running.
 author: Your Name
 email: your@email.com
-baseurl: "/blog" # subpath, e.g. "/blog" if hosted at username.github.io/blog — leave "" for username.github.io or a custom domain
+baseurl: "" # subpath, e.g. "/blog" if hosted at username.github.io/blog — leave "" for username.github.io or a custom domain
 url: "https://bkaznowski.github.io"
 
 # Build settings
