@@ -3,8 +3,8 @@ title: My Blog
 description: Notes on tech and running.
 author: Your Name
 email: your@email.com
-baseurl: "" # subpath, e.g. "/blog" if hosted at username.github.io/blog — leave "" for username.github.io or a custom domain
-url: "" # e.g. "https://username.github.io"
+baseurl: "/blog" # subpath, e.g. "/blog" if hosted at username.github.io/blog — leave "" for username.github.io or a custom domain
+url: "https://bartosz.kaznowski.dev" # your existing github pages custom domain (from bkaznowski.github.io) — this repo is served at a /blog subpath of it
 
 # Build settings
 markdown: kramdown
